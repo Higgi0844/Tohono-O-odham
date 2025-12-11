@@ -1,6 +1,6 @@
 # About
 
-This code integrates TOHelper, written by Jorge Muriel (https://github.com/jmuriel/TOHelper) and pdftotext (https://www.xpdfreader.com/pdftotext-man.html) into a continuous Bash-PHP pipeline to serve converted PDF files as .txt and .html locally. 
+This code integrates TOHelper, written by Jorge Muriel (https://github.com/jmuriel/TOHelper) and pdftotext (https://www.xpdfreader.com/pdftotext-man.html) into a continuous Bash-PHP pipeline to serve converted Tohono O'odham PDF files as .txt and .html locally. 
 
 It is possible to convert a PDF in O'odham from (a) the Saxton to the Alvarez-Hale standard, (b) the Alvarez-Hale to the Saxton standard, or (c) retain the original orthography unchanged. 
 
