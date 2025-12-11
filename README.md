@@ -1,0 +1,7 @@
+This code integrates TOHelper, written by Jorge Muriel (https://github.com/jmuriel/TOHelper) and pdftotext (https://www.xpdfreader.com/pdftotext-man.html) into a continuous Bash-PHP pipeline to serve converted PDF files as .txt and .html locally. 
+
+It is possible to convert a PDF in O'odham from (a) the Saxton to the Alvarez-Hale standard, (b) the Alvarez-Hale to the Saxton standard, or (c) retain the original orthography unchanged. 
+
+The Bash script will create (i) a .txt directory, (ii) an .html directory in your _username_/Sites directory, and (iii) a folder called "o'odham_corpus_texts" on your desktop. After running the code, the converted and original texts will be stored as .txt files in your .txt directory and on your desktop. The .html file will be in the .html directory and will serve the converted text, with an option to toggle the original text.
+
+To run this code on your machine. It is necessary to download and compile the original code for TOHelper (written in Haskell). Note that you may need to update the code to run on your machine. If so, please contact me, and I will share the modifications that worked for me (MacBook Air, OS Tahoe 26.1). It is also necessary to download pdftotext through your terminal. If, however, you have another PDF extraction tool, please feel free to update my work. Finally, note that there are also HTML snippets that are specific to my research projects (e.g., Switch-Reference Marking). They are not necessary for the code and can be safely deleted.
